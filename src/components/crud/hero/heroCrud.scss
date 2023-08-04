@@ -1,0 +1,120 @@
+// Fraunces Fonts
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,800&display=swap");
+
+// Barlow
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap");
+.heroCrudSSS {
+  .heroCrudSSS_items {
+    .heroCrud_items_content {
+      border-radius: 10px;
+      background-image: url("../../../assets/images/crudImg.png");
+      padding: 134px 0px 79px 85px;
+
+      .content_text {
+        width: 450px;
+        h2 {
+          color: #fefcf7;
+          margin-bottom: 32px;
+          font-family: "Fraunces", serif;
+          font-size: 72px;
+          font-style: normal;
+          font-weight: 900;
+          line-height: 72px;
+        }
+        p {
+          margin-bottom: 56px;
+          color: #fefcf7;
+          font-family: "Barlow", sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 26px;
+        }
+      }
+    }
+
+    .proccessCrud {
+      background: #282f38;
+      border-radius: 10px;
+      margin-top: 164px;
+      .proccessCrud_items {
+        margin-left: 85px;
+
+        .proccessLine {
+          padding-top: 104px;
+          display: flex;
+          align-items: center;
+          // gap: 187px;
+          .round {
+            width: 31px;
+            height: 31px;
+            border-radius: 50%;
+            border: 2px solid #0e8784;
+          }
+          .hr {
+            width: 349px;
+            height: 3px;
+            background: #fdd6ba;
+          }
+        }
+
+        .proccess_card {
+          display: flex;
+          gap: 95px;
+        }
+
+        .CreateYourPlan {
+          padding: 15px 31px;
+          border-radius: 6px;
+          background: #0e8784;
+          color: #fefcf7;
+          text-align: center;
+          font-family: "Fraunces", serif;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 900;
+          line-height: 25px;
+          border: none;
+        }
+
+        .CreateYourPlan:hover {
+          background: #66d2cf;
+          cursor: pointer;
+          transition: all 0.3s ease-in-out;
+        }
+      }
+    }
+  }
+}
+
+.cad_proccess {
+  width: 252px;
+  margin-top: 67px;
+
+  .card_proccess_items {
+    .card_proccess_items_img {
+      margin-bottom: 38px;
+    }
+
+    .card_proccess_contentSSS {
+      margin-bottom: 107px;
+      h4 {
+        color: #fefcf7;
+        font-family: "Fraunces", serif;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 36px;
+      }
+
+      p {
+        color: #fefcf7;
+        font-family: "Barlow", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+      }
+    }
+  }
+}

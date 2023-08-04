@@ -1,0 +1,54 @@
+// Fraunces Fonts
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,800&display=swap");
+
+// Barlow
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap");
+
+.collection {
+  .collection_items {
+    margin-top: 120px;
+    .collection_bg {
+      background-image: url("../../../assets/images/collection.png");
+      background-repeat: no-repeat;
+      background-position: top center;
+
+      .cards_branch {
+        display: flex;
+        justify-content: space-around;
+      }
+    }
+  }
+}
+
+.card {
+  width: 255px;
+  margin-top: 135px;
+
+  .card_content {
+    .card_content {
+      margin-top: 71px;
+      text-align: center;
+      h3 {
+        color: #333d4b;
+        text-align: center;
+        font-family: "Fraunces", serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+      }
+
+      p {
+        margin-top: 21px;
+        color: #333d4b;
+        font-family: "Barlow", sans-serif;
+        text-align: center;
+        font-family: Barlow;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+// Fraunces Fonts
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,800&display=swap");
+
+// Barlow
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap");
+
+.benefits {
+  .benefits_items {
+    background: #282f38;
+    border-radius: 10px;
+    padding-bottom: 317px;
+    margin-top: 180px;
+    .benefits_items_about {
+      position: relative;
+      .benefits_items_about_content {
+        margin: 0 auto;
+        padding-top: 120px;
+        width: 540px;
+        h4 {
+          color: #fefcf7;
+          text-align: center;
+          font-family: "Fraunces", serif;
+          font-size: 40px;
+          font-style: normal;
+          font-weight: 900;
+          line-height: 48px;
+        }
+
+        p {
+          margin-top: 32px;
+          color: #fefcf7;
+          text-align: center;
+          font-family: "Barlow", sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 26px;
+        }
+      }
+
+      .benefitCards_bramch {
+        position: absolute;
+        top: 365px;
+        left: 85px;
+        display: flex;
+        gap: 30px;
+      }
+    }
+  }
+}
+
+.cardBenefit {
+  width: 350px;
+  border-radius: 8px;
+  background: #0e8784;
+
+  .card_items {
+    .card_img {
+      padding: 72px 140px 56px 139px;
+    }
+
+    .card_content {
+      padding: 0px 47px 48px 47px;
+      h4 {
+        color: #fefcf7;
+        text-align: center;
+        font-family: "Fraunces", serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+      }
+
+      p {
+        margin-top: 24px;
+        color: #fefcf7;
+        text-align: center;
+        font-family: "Barlow", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+      }
+    }
+  }
+}

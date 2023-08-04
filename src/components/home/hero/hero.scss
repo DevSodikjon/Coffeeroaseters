@@ -1,0 +1,55 @@
+// Fraunces Fonts
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,800&display=swap");
+
+// Barlow
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap");
+.hero {
+  &_items {
+    &_content {
+      border-radius: 10px;
+      background-image: url("../../../assets/images/Bitmap.jpg");
+      padding: 100px 0px 122px 97px;
+
+      .content_text {
+        width: 450px;
+        h2 {
+          color: #fefcf7;
+          margin-bottom: 32px;
+          font-family: "Fraunces", serif;
+          font-size: 72px;
+          font-style: normal;
+          font-weight: 900;
+          line-height: 72px;
+        }
+        p {
+          margin-bottom: 56px;
+          color: #fefcf7;
+          font-family: "Barlow", sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 26px;
+        }
+        .CreateYourPlan {
+          padding: 15px 31px;
+          border-radius: 6px;
+          background: #0e8784;
+          color: #fefcf7;
+          text-align: center;
+          font-family: "Fraunces", serif;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 900;
+          line-height: 25px;
+          border: none;
+        }
+
+        .CreateYourPlan:hover {
+          background: #66d2cf;
+          cursor: pointer;
+          transition: all 0.3s ease-in-out;
+        }
+      }
+    }
+  }
+}
